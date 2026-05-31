@@ -1,0 +1,33 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrapper {
+  display: block;
+  width: auto;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+header {
+  display: none;
+}
+
+section {
+  width: auto;
+  float: none;
+  padding-bottom: 0;
+  border: 0;
+}
+
+footer {
+  position: static;
+  width: auto;
+  float: none;
+}
+
+@media print, screen and (max-width: 960px) {
+  .wrapper { padding: 20px; }
+}
